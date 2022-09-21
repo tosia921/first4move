@@ -30,7 +30,7 @@ const Header = () => {
 	};
 
 	return (
-		<header className={`sticky top-0 left-0 transition-all`}>
+		<header className={`sticky top-0 left-0 transition-all mb-4 z-50`}>
 			<div className={`relative z-30 ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
 				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm px-4 md:px-8 inter md:justify-end">
 					<div className="flex items-center">
@@ -53,9 +53,9 @@ const Header = () => {
 							123renovatoredinburgh@gmail.com
 						</a>
 					</div>
-					<div className="md:w-8 md:h-auto">
+					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/First4move/" target="_blank">
 						<FbIcon />
-					</div>
+					</a>
 				</div>
 				<div className={`h-12 md:h-16 px-4 md:px-8 flex items-center justify-between shadow-sm bg-white`}>
 					<div className="">
