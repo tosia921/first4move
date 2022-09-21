@@ -31,8 +31,8 @@ const Header = () => {
 
 	return (
 		<header className={`sticky top-0 left-0 transition-all mb-4 z-50`}>
-			<div className={`relative z-30 ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
-				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm px-4 md:px-8 inter md:justify-end">
+			<div className={`relative z-30  ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
+				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm inter md:justify-end px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] xl:w-full xxxl:px-[calc((100vw-1440px)/2)]">
 					<div className="flex items-center">
 						<div className="mr-2 md:w-8 md:h-auto">
 							<PhoneIcon />
@@ -57,7 +57,9 @@ const Header = () => {
 						<FbIcon />
 					</a>
 				</div>
-				<div className={`h-12 md:h-16 px-4 md:px-8 flex items-center justify-between shadow-sm bg-white`}>
+				<div
+					className={`h-12 md:h-16 flex items-center justify-between shadow-sm bg-white px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] xl:w-full xxxl:px-[calc((100vw-1440px)/2)]`}
+				>
 					<div className="">
 						<Logo />
 					</div>

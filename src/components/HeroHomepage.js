@@ -64,5 +64,3 @@ const HeroHomepage = () => {
 };
 
 export default HeroHomepage;
-
-// before:h-[250px] before:w-10/12 before:bg-orange before:absolute before:-right-5 before:-bottom-5 before:z-10 before:rounded-bl-2xl
