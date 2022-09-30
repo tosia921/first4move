@@ -1,8 +1,14 @@
 import * as React from 'react';
-import HeroHomepage from '../components/HeroHomepage';
+import Hero from '../components/Homepage/Hero';
+import Services from '../components/Homepage/Services';
 
 const IndexPage = () => {
-	return <HeroHomepage />;
+	return (
+		<>
+			<Hero />
+			<Services />
+		</>
+	);
 };
 
 export default IndexPage;

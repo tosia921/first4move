@@ -1,14 +1,14 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import Button from './Button';
+import Button from '../Button';
 
 // SVG's
-import BlobOne from '../images/blobs/blob1.svg';
-import BlobTwo from '../images/blobs/blob2.svg';
-import Circle from '../images/blobs/circleBackground.svg';
-import Triangle from '../images/blobs/triangle.svg';
+import BlobOne from '../../images/blobs/blob1.svg';
+import BlobTwo from '../../images/blobs/blob2.svg';
+import Circle from '../../images/blobs/circleBackground.svg';
+import Triangle from '../../images/blobs/triangle.svg';
 
-const HeroHomepage = () => {
+const Hero = () => {
 	return (
 		<section className="flex relative justify-center flex-col md:flex-row-reverse md:items-center md:columns-2 md:gap-2">
 			<div className="grid w-full py-6">
@@ -39,8 +39,7 @@ const HeroHomepage = () => {
 					<span className="text-orange ml-1">.</span>
 				</h1>
 				<p className="text-sm lg:text-base sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Baloo text-grey">
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard dummy text ever since the 1500s.
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 				</p>
 				<div className="flex mr-5">
 					<Button text={'Services'} to="/services" mr />
@@ -63,4 +62,4 @@ const HeroHomepage = () => {
 	);
 };
 
-export default HeroHomepage;
+export default Hero;

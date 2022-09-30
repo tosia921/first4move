@@ -1,0 +1,59 @@
+import React from 'react';
+
+import Tiling from '../images/icons-services/tiling.svg';
+import Plastering from '../images/icons-services/plastering.svg';
+import Painting from '../images/icons-services/painting.svg';
+import Maitanance from '../images/icons-services/maitanance.svg';
+import Kitchen from '../images/icons-services/kitchen.svg';
+import Bathroom from '../images/icons-services/bathroom.svg';
+import Flooring from '../images/icons-services/florring.svg';
+
+const ServiceCard = ({ title, copy, icon }) => {
+	return (
+		<div className="w-full h-[300px] max-w-[275px] md:h-[350px] mb-3 border-card rounded-br-3xl p-5 flex flex-col">
+			<div className="h-[40%] flex items-start">
+				{icon === 'bathroom' && (
+					<div className="h-[80%] md:h-[60%] md:mt-4">
+						<Bathroom className="h-full" />
+					</div>
+				)}
+				{icon === 'kitchen' && (
+					<div className="h-[100%] -ml-[6px]">
+						<Kitchen className="h-full" />
+					</div>
+				)}
+				{icon === 'tiling' && (
+					<div className="h-[80%] mt-1">
+						<Tiling className="h-full" />
+					</div>
+				)}
+				{icon === 'plastering' && (
+					<div className="h-20">
+						<Plastering className="h-full" />
+					</div>
+				)}
+				{icon === 'painting' && (
+					<div className="h-20">
+						<Painting className="h-full" />
+					</div>
+				)}
+				{icon === 'maitanance' && (
+					<div className="h-20">
+						<Maitanance className="h-full" />
+					</div>
+				)}
+				{icon === 'flooring' && (
+					<div className="h-[85%] mt-2">
+						<Flooring className="h-full" />
+					</div>
+				)}
+			</div>
+			<div className="h-[60%]">
+				<h3 className="text-xl font-bold font-Baloo mb-2">{title}</h3>
+				<p className="font-Baloo text-sm md:text-base text-grey leading-6">{copy}</p>
+			</div>
+		</div>
+	);
+};
+
+export default ServiceCard;
