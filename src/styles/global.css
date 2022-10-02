@@ -13,7 +13,7 @@ body {
 }
 
 .orange-line {
-	@apply h-[2px] my-4 w-16 bg-orange;
+	@apply h-[2px] my-6 w-16 bg-orange;
 }
 .small-text-grey {
 	@apply text-sm md:text-lg text-center font-Baloo text-grey;

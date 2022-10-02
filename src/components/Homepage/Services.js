@@ -5,7 +5,7 @@ import Button from '../Button';
 
 const Services = () => {
 	return (
-		<div className="w-full my-20 flex flex-col justify-center items-center ">
+		<div className="w-full my-12 flex flex-col justify-center items-center ">
 			<h2 className="text-3xl md:text-4xl font-Baloo mb-3 font-bold">Our Services</h2>
 			<p className="small-text-grey max-w-[70%]">
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
