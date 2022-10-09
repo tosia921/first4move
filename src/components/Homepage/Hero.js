@@ -19,7 +19,7 @@ const Hero = () => {
 					}}
 				></div>
 				<StaticImage
-					src="../images/hero-image.png"
+					src="../../images/hero-image.png"
 					alt="Renovated Bathroom"
 					layout="fullWidth"
 					style={{

@@ -21,3 +21,14 @@ body {
 .border-card {
 	border: 1px solid #ff913a;
 }
+
+.swiper {
+	/* padding: 0 15%; */
+	overflow: visible !important;
+}
+.swiper-pagination {
+	bottom: -50px;
+}
+/* .swiper .swiper-button-next {
+	right: -100px;
+} */

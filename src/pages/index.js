@@ -2,6 +2,8 @@ import * as React from 'react';
 import Hero from '../components/Homepage/Hero';
 import Services from '../components/Homepage/Services';
 import ImageBullets from '../components/ImageBullets';
+import Projects from '../components/Homepage/Projects';
+import Testimonials from '../components/Homepage/Testimonials';
 
 const IndexPage = () => {
 	return (
@@ -9,6 +11,8 @@ const IndexPage = () => {
 			<Hero />
 			<Services />
 			<ImageBullets />
+			<Projects />
+			<Testimonials />
 		</>
 	);
 };

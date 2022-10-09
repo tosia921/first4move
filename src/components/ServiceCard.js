@@ -10,47 +10,47 @@ import Flooring from '../images/icons-services/florring.svg';
 
 const ServiceCard = ({ title, copy, icon }) => {
 	return (
-		<div className="w-full h-[300px] max-w-[275px] md:h-[350px] mb-3 border-card rounded-br-3xl p-5 flex flex-col">
+		<div className="group w-full h-[300px] max-w-[275px] md:h-[350px] mb-3 border-card rounded-br-3xl p-5 flex flex-col hover:bg-orange cursor-pointer">
 			<div className="h-[40%] flex items-start">
 				{icon === 'bathroom' && (
-					<div className="h-[80%] md:h-[60%] md:mt-4">
-						<Bathroom className="h-full" />
+					<div className="h-[80%] md:h-[60%] md:mt-4 ">
+						<Bathroom className="h-full group-hover:stroke-white" />
 					</div>
 				)}
 				{icon === 'kitchen' && (
 					<div className="h-[100%] -ml-[6px]">
-						<Kitchen className="h-full" />
+						<Kitchen className="h-full group-hover:stroke-white" />
 					</div>
 				)}
 				{icon === 'tiling' && (
 					<div className="h-[80%] mt-1">
-						<Tiling className="h-full" />
+						<Tiling className="h-full group-hover:fill-white" />
 					</div>
 				)}
 				{icon === 'plastering' && (
 					<div className="h-20">
-						<Plastering className="h-full" />
+						<Plastering className="h-full group-hover:fill-white" />
 					</div>
 				)}
 				{icon === 'painting' && (
 					<div className="h-20">
-						<Painting className="h-full" />
+						<Painting className="h-full group-hover:stroke-white" />
 					</div>
 				)}
 				{icon === 'maitanance' && (
 					<div className="h-20">
-						<Maitanance className="h-full" />
+						<Maitanance className="h-full group-hover:stroke-white" />
 					</div>
 				)}
 				{icon === 'flooring' && (
 					<div className="h-[85%] mt-2">
-						<Flooring className="h-full" />
+						<Flooring className="h-full group-hover:stroke-white" />
 					</div>
 				)}
 			</div>
-			<div className="h-[60%]">
-				<h3 className="text-xl font-bold font-Baloo mb-2">{title}</h3>
-				<p className="font-Baloo text-sm md:text-base text-grey leading-6">{copy}</p>
+			<div className="h-[60%] ">
+				<h3 className="text-xl font-bold font-Baloo mb-2 group-hover:text-white">{title}</h3>
+				<p className="font-Baloo text-sm md:text-base text-grey leading-6 group-hover:text-white">{copy}</p>
 			</div>
 		</div>
 	);

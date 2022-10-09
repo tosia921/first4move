@@ -11,8 +11,8 @@ import Subtract from '../images/blobs/Subtract.svg';
 
 const ImageBullets = () => {
 	return (
-		<div className="md:flex mb-12 relative">
-			<div className="hidden lg:block absolute -top-[100px] lg:-right-[6rem] xl:-right-[calc((100vw-1024px)/2)] xxl:-right-[calc((100vw-1240px)/2)] xxxl:-right-[calc((100vw-1440px)/2)] -z-10 w-[17.5%] xxxl:w-[20%] ">
+		<div className="md:flex mb-12 relative md:my-[75px]">
+			<div className="hidden lg:block absolute -top-[100px] lg:-right-[6rem] xl:-right-[calc((100vw-1040px)/2)] xxl:-right-[calc((100vw-1260px)/2)] xxxl:-right-[calc((100vw-1460px)/2)] -z-10 w-[17.5%] xxxl:w-[20%] ">
 				<Blob className="w-full h-auto" />
 			</div>
 			<div className="grid w-full py-6 md:w-1/2 relative">
@@ -41,7 +41,7 @@ const ImageBullets = () => {
 				/>
 			</div>
 			<div className="font-Baloo font-bold text-2xl md:w-1/2 md:flex md:flex-col md:mt-20 md:pl-[10%]">
-				<h3 className="text-3xl">
+				<h3 className="text-3xl lg:text-4xl">
 					We are <span className="text-orange">Experts</span> in <br /> Renovations
 				</h3>
 				<div className="orange-line"></div>

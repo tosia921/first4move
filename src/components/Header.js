@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
 import { Spin as Hamburger } from 'hamburger-react';
 
 //icons
@@ -30,8 +29,8 @@ const Header = () => {
 	};
 
 	return (
-		<header className={`sticky top-0 left-0 transition-all mb-4 z-50`}>
-			<div className={`relative z-30  ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
+		<header className={`sticky top-0 left-0  mb-4 z-50`}>
+			<div className={`relative z-30 transition-all ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
 				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm inter md:justify-end px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] xl:w-full xxxl:px-[calc((100vw-1440px)/2)]">
 					<div className="flex items-center">
 						<div className="mr-2 md:w-8 md:h-auto">
@@ -46,14 +45,11 @@ const Header = () => {
 						<div className="mr-2 md:w-8 md:h-auto">
 							<MailIcon />
 						</div>
-						<a
-							href="mailto:123renovatoredinburgh@gmail.com"
-							className="inter text-white font-semibold text-base md:text-lg"
-						>
+						<a href="mailto:123renovatoredinburgh@gmail.com" className="inter text-white font-semibold text-base md:text-lg">
 							123renovatoredinburgh@gmail.com
 						</a>
 					</div>
-					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/First4move/" target="_blank">
+					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/First4move/" target="_blank" rel="noreferrer">
 						<FbIcon />
 					</a>
 				</div>

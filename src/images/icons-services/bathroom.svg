@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="78" height="65" fill="none" viewBox="0 0 78 65">
-  <path stroke="#FF913A" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5" d="m15.141 57.491-3 6.22m50.68-6.22 3 6.22"/>
-  <path stroke="#FF913A" stroke-miterlimit="10" stroke-width="2.5" d="M70.609 38.49v4.832c0 8.735-7.147 15.882-15.883 15.882H23.238c-8.736 0-15.883-7.147-15.883-15.882V38.49"/>
-  <path stroke="#FF913A" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="M35.955 26.178h36.847c1.741 0 3.162 1.464 3.162 3.248v.542c0 1.786-1.423 3.246-3.162 3.246h-37.2m-20.117 0H5.162C3.422 33.214 2 31.753 2 29.968v-.542c0-1.785 1.423-3.248 3.162-3.248h10.411"/>
-  <path stroke="#FF913A" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="M60.667 16.643c0-3.04 2.207-5.525 4.904-5.525 2.699 0 4.903 2.486 4.903 5.525v8.992M35.56 23.693V45.09H20.563V26.024a3.159 3.159 0 0 1 3.15-3.15H34.43c1.456 0 3.702.035 3.702 3.12m-17.259 12.85h14.361"/>
-  <path stroke="#FF913A" stroke-miterlimit="10" stroke-width="2.5" d="M45.86 18.303a3.965 3.965 0 1 0 0-7.93 3.965 3.965 0 0 0 0 7.93Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="65" fill="none" stroke="#FF913A" viewBox="0 0 78 65">
+  <path  stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5" d="m15.141 57.491-3 6.22m50.68-6.22 3 6.22"/>
+  <path  stroke-miterlimit="10" stroke-width="2.5" d="M70.609 38.49v4.832c0 8.735-7.147 15.882-15.883 15.882H23.238c-8.736 0-15.883-7.147-15.883-15.882V38.49"/>
+  <path  stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="M35.955 26.178h36.847c1.741 0 3.162 1.464 3.162 3.248v.542c0 1.786-1.423 3.246-3.162 3.246h-37.2m-20.117 0H5.162C3.422 33.214 2 31.753 2 29.968v-.542c0-1.785 1.423-3.248 3.162-3.248h10.411"/>
+  <path  stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="M60.667 16.643c0-3.04 2.207-5.525 4.904-5.525 2.699 0 4.903 2.486 4.903 5.525v8.992M35.56 23.693V45.09H20.563V26.024a3.159 3.159 0 0 1 3.15-3.15H34.43c1.456 0 3.702.035 3.702 3.12m-17.259 12.85h14.361"/>
+  <path  stroke-miterlimit="10" stroke-width="2.5" d="M45.86 18.303a3.965 3.965 0 1 0 0-7.93 3.965 3.965 0 0 0 0 7.93Z"/>
   <path fill="#FF913A" d="M40.424 4.297a2.148 2.148 0 1 0 0-4.297 2.148 2.148 0 0 0 0 4.297Zm-7.033 9.957a2.148 2.148 0 1 0 0-4.297 2.148 2.148 0 0 0 0 4.297Z"/>
 </svg>
