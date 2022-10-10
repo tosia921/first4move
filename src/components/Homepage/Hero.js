@@ -10,7 +10,7 @@ import Triangle from '../../images/blobs/triangle.svg';
 
 const Hero = () => {
 	return (
-		<section className="flex relative justify-center flex-col md:flex-row-reverse md:items-center md:columns-2 md:gap-2">
+		<section className="page-padding flex relative justify-center flex-col md:flex-row-reverse md:items-center md:columns-2 md:gap-2">
 			<div className="grid w-full py-6">
 				<div
 					className="relative bg-orange justify-self-end self-end w-[90%] h-[90%] rounded-bl-3xl"

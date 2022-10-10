@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
 	return (
 		<div className="min-h-screen flex flex-col">
 			<Header />
-			<main className="page-padding">{children}</main>
+			<main className="">{children}</main>
 			<Footer />
 		</div>
 	);
