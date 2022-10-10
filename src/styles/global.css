@@ -23,7 +23,31 @@ body {
 }
 
 .page-padding {
-	@apply md:px-16 lg:px-[6rem] xl:px-0 xl:w-[1024px] xl:mx-auto xxl:w-[1240px] xxxl:w-[1440px];
+	/* @apply md:px-16 lg:px-[6rem] xl:px-0 xl:w-[1024px] xl:mx-auto xxl:w-[1240px] xxxl:w-[1440px]; */
+	padding: 0 4rem;
+}
+@media (min-width: 976px) {
+	.page-padding {
+		padding: 0 6rem;
+	}
+}
+@media (min-width: 1100px) {
+	.page-padding {
+		width: 1024px;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (min-width: 1300px) {
+	.page-padding {
+		width: 1240px;
+	}
+}
+@media (min-width: 1500px) {
+	.page-padding {
+		width: 1440px;
+	}
 }
 
 /* .swiper-pagination {
