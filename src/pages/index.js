@@ -4,6 +4,7 @@ import Services from '../components/Homepage/Services';
 import ImageBullets from '../components/ImageBullets';
 import Projects from '../components/Homepage/Projects';
 import Testimonials from '../components/Homepage/Testimonials';
+import BreakSection from '../components/BreakSection';
 
 const IndexPage = () => {
 	return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
 			<ImageBullets />
 			<Projects />
 			<Testimonials />
+			<BreakSection />
 		</>
 	);
 };

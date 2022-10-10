@@ -1,5 +1,4 @@
 import React from 'react';
-import Project from '../Project';
 import { StaticImage } from 'gatsby-plugin-image';
 import Button from '../Button';
 
