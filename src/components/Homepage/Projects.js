@@ -69,7 +69,7 @@ const Projects = () => {
 									maxWidth: '700px',
 								}}
 							>
-								<StaticImage src="../../images/Bathroom1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+								<StaticImage src="../../images/bathroom1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
 							</div>
 						</div>
 					</div>
