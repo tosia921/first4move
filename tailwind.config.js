@@ -11,6 +11,7 @@ module.exports = {
 			grey: '#929292',
 			'grey-dark': '#4A4A4A',
 			'grey-light': '#e1e1e1',
+			footer: '#484848',
 		},
 		screens: {
 			sm: '480px',
