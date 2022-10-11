@@ -10,7 +10,7 @@ import Flooring from '../images/icons-services/florring.svg';
 
 const ServiceCard = ({ title, copy, icon }) => {
 	return (
-		<div className="group w-full h-[300px] max-w-[275px] md:h-[350px] mb-3 border-card rounded-br-3xl p-5 flex flex-col hover:bg-orange cursor-pointer">
+		<div className="group w-full h-[300px] max-w-[275px] md:h-[350px] mb-3 border-card rounded-br-3xl p-2 md:p-5 flex flex-col hover:bg-orange cursor-pointer">
 			<div className="h-[40%] flex items-start">
 				{icon === 'bathroom' && (
 					<div className="h-[80%] md:h-[60%] md:mt-4 ">
@@ -50,7 +50,7 @@ const ServiceCard = ({ title, copy, icon }) => {
 			</div>
 			<div className="h-[60%] ">
 				<h3 className="text-xl font-bold font-Baloo mb-2 group-hover:text-white">{title}</h3>
-				<p className="font-Baloo text-sm md:text-base text-grey leading-6 group-hover:text-white">{copy}</p>
+				<p className="font-Baloo text-sm md:text-base text-grey leading-5 group-hover:text-white">{copy}</p>
 			</div>
 		</div>
 	);
