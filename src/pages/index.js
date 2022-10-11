@@ -5,17 +5,18 @@ import ImageBullets from '../components/ImageBullets';
 import Projects from '../components/Homepage/Projects';
 import Testimonials from '../components/Homepage/Testimonials';
 import BreakSection from '../components/BreakSection';
+import Layout from '../components/Layout';
 
 const IndexPage = () => {
 	return (
-		<>
+		<Layout>
 			<Hero />
 			<Services />
 			<ImageBullets />
 			<Projects />
 			<Testimonials />
 			<BreakSection />
-		</>
+		</Layout>
 	);
 };
 
