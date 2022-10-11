@@ -37,7 +37,6 @@ const ImageBullets = () => {
 						maxWidth: '700px',
 					}}
 					aspectRatio={1 / 1}
-					formats={['auto', 'webp', 'avif']}
 				/>
 			</div>
 			<div className="font-Baloo font-bold text-2xl md:w-1/2 md:flex md:flex-col md:mt-20 md:pl-[10%]">

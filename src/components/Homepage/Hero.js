@@ -30,7 +30,6 @@ const Hero = () => {
 						maxWidth: '700px',
 					}}
 					aspectRatio={1 / 1}
-					formats={['auto', 'webp', 'avif']}
 				/>
 			</div>
 			<div className="w-full">

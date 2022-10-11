@@ -9,7 +9,9 @@ const Footer = () => {
 			<div className="flex flex-col gap-3 md:gap-6 md:flex-row">
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">About Us</h5>
-					<p className="pb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					<p className="pb-2 max-w-[95%] xl:max-w-[90%] xxl:max-w-[80%]">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
 					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/First4move/" target="_blank" rel="noreferrer">
 						<FbIcon />
 					</a>
