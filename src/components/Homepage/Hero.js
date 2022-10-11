@@ -19,14 +19,16 @@ const Hero = () => {
 					}}
 				></div>
 				<StaticImage
-					src="../../images/hero-image.png"
+					src="../../images/HERO.png"
 					alt="Renovated Bathroom"
 					layout="fullWidth"
+					objectPosition="50% 20%"
 					style={{
 						gridArea: '1/1',
 						height: '95%',
 						width: '95%',
 						borderBottomLeftRadius: '1.5rem',
+						objectPosition: '20% 20%',
 						maxWidth: '700px',
 					}}
 					aspectRatio={1 / 1}

@@ -26,7 +26,7 @@ const ImageBullets = () => {
 					<Subtract />
 				</div>
 				<StaticImage
-					src="../images/imageex.png"
+					src="../images/image2.png"
 					alt="Renovated Bathroom"
 					layout="fullWidth"
 					style={{

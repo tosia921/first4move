@@ -37,7 +37,7 @@ const Projects = () => {
 									maxWidth: '700px',
 								}}
 							>
-								<StaticImage src="../../images/imageex.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} formats={['auto', 'webp', 'avif']} />
+								<StaticImage src="../../images/kitchen1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} formats={['auto', 'webp', 'avif']} />
 							</div>
 						</div>
 					</div>
@@ -69,7 +69,7 @@ const Projects = () => {
 									maxWidth: '700px',
 								}}
 							>
-								<StaticImage src="../../images/imageex.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} formats={['auto', 'webp', 'avif']} />
+								<StaticImage src="../../images/Bathroom1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} formats={['auto', 'webp', 'avif']} />
 							</div>
 						</div>
 					</div>
