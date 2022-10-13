@@ -4,7 +4,7 @@ import Button from '../Button';
 
 const Projects = () => {
 	return (
-		<section className="md:my-[75px]">
+		<section className="page-padding md:my-[75px]">
 			<div className="w-full my-12 mb-4 flex flex-col justify-center items-center ">
 				<h2 className="text-3xl md:text-4xl font-Baloo mb-3 font-bold">Our Projects</h2>
 				<p className="small-text-grey md:max-w-[70%]">
@@ -65,7 +65,6 @@ const Projects = () => {
 									gridArea: '1/1',
 									height: '95%',
 									width: '95%',
-
 									maxWidth: '700px',
 								}}
 							>

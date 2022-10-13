@@ -28,17 +28,17 @@ const ServiceCard = ({ title, copy, icon }) => {
 					</div>
 				)}
 				{icon === 'plastering' && (
-					<div className="h-20">
+					<div className="h-20 -ml-5">
 						<Plastering className="h-full group-hover:fill-white" />
 					</div>
 				)}
 				{icon === 'painting' && (
-					<div className="h-20">
+					<div className="h-20 mt-6">
 						<Painting className="h-full group-hover:stroke-white" />
 					</div>
 				)}
 				{icon === 'maitanance' && (
-					<div className="h-20">
+					<div className="h-20 mt-6">
 						<Maitanance className="h-full group-hover:stroke-white" />
 					</div>
 				)}

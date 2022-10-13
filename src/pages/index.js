@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Hero from '../components/Homepage/Hero';
 import Services from '../components/Homepage/Services';
-import ImageBullets from '../components/ImageBullets';
+import ImageBullets from '../components/Homepage/ImageBullets';
 import Projects from '../components/Homepage/Projects';
 import Testimonials from '../components/Homepage/Testimonials';
 import BreakSection from '../components/BreakSection';
@@ -15,7 +15,7 @@ const IndexPage = () => {
 			<ImageBullets />
 			<Projects />
 			<Testimonials />
-			<BreakSection />
+			<BreakSection title="Do You Have Any Projects?" text="Contact Us For a Free Quote" />
 		</Layout>
 	);
 };

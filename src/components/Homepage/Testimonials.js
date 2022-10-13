@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 
 const Testimonials = () => {
 	return (
-		<section>
+		<section className="page-padding">
 			<div>
 				<div className="w-full my-12 mb-4 flex flex-col justify-center items-center ">
 					<h2 className="text-3xl text-center md:text-4xl font-Baloo mb-3 font-bold">See what other say about us...</h2>

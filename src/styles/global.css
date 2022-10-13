@@ -18,6 +18,9 @@ body {
 .small-text-grey {
 	@apply text-sm md:text-lg text-center font-Baloo text-grey;
 }
+.small-text-grey--left {
+	@apply text-sm md:text-lg text-left font-Baloo text-grey;
+}
 .border-card {
 	border: 1px solid #ff913a;
 }
