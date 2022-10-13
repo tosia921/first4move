@@ -12,7 +12,7 @@ const TextImage = () => {
 					}}
 				></div>
 				<StaticImage
-					src="../images/about-image1.png"
+					src="../../images/about-image1.png"
 					alt="Renovated Bathroom"
 					layout="fullWidth"
 					style={{
