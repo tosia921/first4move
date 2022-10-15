@@ -4,13 +4,23 @@ module.exports = {
 		siteUrl: `https://www.yourdomain.tld`,
 	},
 	plugins: [
-		// {
-		// 	resolve: 'gatsby-source-sanity',
-		// 	options: {
-		// 		projectId: '123123',
-		// 		dataset: '12er12r',
-		// 	},
-		// },
+		{
+			resolve: 'gatsby-source-sanity',
+			options: {
+				projectId: '6jjq3mfp',
+				dataset: 'production',
+				token: process.env.SANITY_TOKEN,
+				graphqlTag: 'default',
+			},
+		},
+		{
+			resolve: 'gatsby-plugin-sanity-image',
+			options: {
+				projectId: '6jjq3mfp',
+				dataset: 'production',
+				token: process.env.SANITY_TOKEN,
+			},
+		},
 		'gatsby-plugin-postcss',
 		'gatsby-plugin-image',
 		{

@@ -19,6 +19,7 @@
 		"gatsby-plugin-google-fonts": "^1.0.1",
 		"gatsby-plugin-image": "^2.23.0",
 		"gatsby-plugin-react-svg": "^3.1.0",
+		"gatsby-plugin-sanity-image": "^0.13.0",
 		"gatsby-plugin-sharp": "^4.23.0",
 		"gatsby-plugin-sitemap": "^5.23.0",
 		"gatsby-source-filesystem": "^4.23.0",
@@ -27,7 +28,10 @@
 		"hamburger-react": "^2.5.0",
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0",
-		"swiper": "^8.4.3"
+		"react-photo-album": "^1.16.1",
+		"simple-react-lightbox": "^3.6.9-0",
+		"swiper": "^8.4.3",
+		"yet-another-react-lightbox": "^2.2.0"
 	},
 	"devDependencies": {
 		"@tailwindcss/typography": "^0.5.7",
