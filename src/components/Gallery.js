@@ -48,7 +48,16 @@ const Gallery = ({ data }) => {
 
 						return (
 							<div style={{ position: 'relative', width, height }}>
-								<Image {...image.image} width={width} height={height} />
+								<Image
+									{...image.image}
+									width={width}
+									height={height}
+									style={{
+										width: '100%',
+										height: '100%',
+										objectFit: 'cover',
+									}}
+								/>
 							</div>
 						);
 					},

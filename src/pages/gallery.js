@@ -45,32 +45,11 @@ export const query = graphql`
 			edges {
 				node {
 					imagegallery {
+						...ImageWithPreview
 						asset {
-							id
-							publicUrl
-							gatsbyImage
-							gatsbyImageData
 							height
 							width
 							url
-							altText
-							_id
-						}
-						crop {
-							top
-							right
-							left
-							bottom
-							_type
-							_key
-						}
-						hotspot {
-							y
-							x
-							width
-							height
-							_type
-							_key
 						}
 					}
 				}
