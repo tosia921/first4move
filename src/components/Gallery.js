@@ -33,7 +33,7 @@ const Gallery = ({ data }) => {
 	}, [images]);
 
 	return (
-		<section className="page-padding">
+		<div>
 			<PhotoAlbum layout="columns" photos={images} renderPhoto={SanityGalleryImage} onClick={(event, photo, index) => setIndex(index)} />
 			<Lightbox
 				open={index >= 0}
@@ -63,7 +63,7 @@ const Gallery = ({ data }) => {
 					},
 				}}
 			/>
-		</section>
+		</div>
 	);
 };
 

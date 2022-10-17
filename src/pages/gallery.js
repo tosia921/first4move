@@ -10,29 +10,18 @@ const gallery = ({ data }) => {
 	return (
 		<Layout>
 			<PageHero label="Gallery" page="gallery" />
-			<div className="my-10">
-				<Gallery data={data.allSanityGallery.edges[0].node.imagegallery} />
-			</div>
-			{/* <div className="my-10">
-				{data.allSanityGallery.edges[0].node.imagegallery.map((image) => {
-					console.log(image);
-					return (
-						<Image
-							// pass asset, hotspot, and crop fields
-							{...image}
-							// tell Sanity how large to make the image (does not set any CSS)
-							width={500}
-							// style it how you want it
-							style={{
-								width: '100%',
-								height: '100%',
-								objectFit: 'cover',
-							}}
-						/>
-					);
-				})}
-			</div> */}
-			{/* <pre>{JSON.stringify(data, null, 4)}</pre> */}
+			<section className="page-padding">
+				<div className="flex flex-col items-center md:items-start">
+					<h2 className="text-3xl  md:text-4xl font-Baloo mb-3 font-bold">Changing Quality Of Living</h2>
+					<p className="small-text-grey md:text-left max-w-[90%] md:max-w-[70%]">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					</p>
+					<div className="orange-line"></div>
+				</div>
+				<div className="my-10">
+					<Gallery data={data.allSanityGallery.edges[0].node.imagegallery} />
+				</div>
+			</section>
 		</Layout>
 	);
 };
