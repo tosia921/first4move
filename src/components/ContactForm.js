@@ -3,7 +3,7 @@ import Button from '../components/Button';
 
 const ContactForm = () => {
 	return (
-		<form className="w-full" action="https://formsubmit.co/tomaszposiadala@gmail.com">
+		<form className="w-full" action="https://formsubmit.co/tomaszposiadala@gmail.com" method="POST">
 			<div className="md:flex">
 				<div>
 					<div className="flex flex-wrap -mx-3 mb-6">
@@ -51,8 +51,8 @@ const ContactForm = () => {
 							</label>
 							<input
 								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-								id="email"
-								type="email"
+								id="phone"
+								type="number"
 							/>
 							<p className="text-gray-600 text-xs italic">Some tips - as long as needed</p>
 						</div>
