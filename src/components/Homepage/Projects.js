@@ -73,7 +73,7 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="flex justify-center md:justify-start md:ml-[10%]">
-						<Button color="orange" text="See All" to="/services" />
+						<Button color="orange" text="See All" to="/projects" />
 					</div>
 				</div>
 			</div>

@@ -10,6 +10,7 @@ const PageHero = ({ page, label }) => {
 				{page === 'services' && <StaticImage src="../images/pageHero/services-hero.png" alt="Renovated Bathroom" layout="fullWidth" />}
 				{page === 'gallery' && <StaticImage src="../images/pageHero/gallery-hero.png" alt="Renovated Bathroom" layout="fullWidth" />}
 				{page === 'projects' && <StaticImage src="../images/pageHero/projects-hero.png" alt="Renovated Bathroom" layout="fullWidth" />}
+				{page === 'contact' && <StaticImage src="../images/pageHero/contact-hero.png" alt="Renovated Bathroom" layout="fullWidth" />}
 				<h1 className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-4xl md:text-7xl text-white font-Baloo font-bold md:left-80 z-20">{label}</h1>
 			</div>
 			<div className="sm:hidden relative">
@@ -18,6 +19,7 @@ const PageHero = ({ page, label }) => {
 				{page === 'services' && <StaticImage src="../images/pageMobile/services-hero.jpg" alt="Renovated Bathroom" layout="fullWidth" />}
 				{page === 'gallery' && <StaticImage src="../images/pageMobile/gallery-hero.jpg" alt="Renovated Bathroom" layout="fullWidth" />}
 				{page === 'projects' && <StaticImage src="../images/pageMobile/projects-hero.jpg" alt="Renovated Bathroom" layout="fullWidth" />}
+				{page === 'contact' && <StaticImage src="../images/pageMobile/contact-hero.jpg" alt="Renovated Bathroom" layout="fullWidth" />}
 				<h1 className="w-full text-center absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-5xl md:text-7xl text-white font-Baloo font-bold md:left-80 z-20">{label}</h1>
 			</div>
 		</section>

@@ -2,7 +2,6 @@ import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import CheckOrange from '../../images/check.svg';
 import CheckBlue from '../../images/checkBlue.svg';
-import BreakSection from '../BreakSection';
 
 const SingleProject = ({ number, name, text1, text2, bullets, secondary }) => {
 	console.log(bullets);

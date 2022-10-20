@@ -18,7 +18,7 @@ const Services = () => {
 				<ServiceCard title="Flooring" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="flooring" />
 				<ServiceCard title="Tiling" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="tiling" />
 			</div>
-			<Button text="See All Services" />
+			<Button to="/services" text="See All Services" />
 		</div>
 	);
 };
