@@ -52,7 +52,7 @@ const ContactForm = () => {
 							<input
 								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
 								id="phone"
-								type="number"
+								type="text"
 							/>
 							<p className="text-gray-600 text-xs italic">Some tips - as long as needed</p>
 						</div>
@@ -73,7 +73,6 @@ const ContactForm = () => {
 			<input type="hidden" name="_next" value="https://first4move.netlify.app/email-success-page" />
 			<input type="hidden" name="_subject" value="New email form submission from First4Move.co.uk"></input>
 			<input type="text" name="_honey" style={{ display: 'none' }}></input>
-			<input type="hidden" name="_template" value="table"></input>
 			<div className="mt-5 md:mt-0">
 				<button
 					type="submit"
