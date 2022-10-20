@@ -5,8 +5,8 @@ const ContactForm = () => {
 	return (
 		<form className="w-full" action="https://formsubmit.co/tomaszposiadala@gmail.com" method="POST">
 			<div className="md:flex">
-				<div>
-					<div className="flex flex-wrap -mx-3 mb-6">
+				<div className="flex flex-col justify-between">
+					<div className="flex flex-wrap -mx-3 ">
 						<div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="FirstName">
 								First Name
@@ -15,10 +15,9 @@ const ContactForm = () => {
 								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
 								id="grid-first-name"
 								type="text"
-								placeholder="Enter your Name..."
 								name="FirstName"
+								required
 							/>
-							<p className="text-red-500 text-xs italic">Please fill out this field.</p>
 						</div>
 						<div className="w-full md:w-1/2 px-3">
 							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="LastName">
@@ -28,12 +27,12 @@ const ContactForm = () => {
 								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
 								id="grid-last-name"
 								type="text"
-								placeholder="Enter your Last Name..."
 								name="LastName"
+								required
 							/>
 						</div>
 					</div>
-					<div className="flex flex-wrap -mx-3 mb-6">
+					<div className="flex flex-wrap -mx-3 ">
 						<div className="w-full px-3">
 							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="Email">
 								E-mail
@@ -43,22 +42,21 @@ const ContactForm = () => {
 								id="email"
 								type="email"
 								name="Email"
+								required
 							/>
-							<p className="text-gray-600 text-xs italic">Some tips - as long as needed</p>
 						</div>
 					</div>
-					<div className="flex flex-wrap -mx-3 mb-6">
+					<div className="flex flex-wrap -mx-3">
 						<div className="w-full px-3">
 							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="Phone">
 								Phone Number
 							</label>
 							<input
-								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
 								id="phone"
 								type="text"
 								name="Phone"
 							/>
-							<p className="text-gray-600 text-xs italic">Some tips - as long as needed</p>
 						</div>
 					</div>
 				</div>
@@ -71,6 +69,7 @@ const ContactForm = () => {
 							className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-72 md:h-full resize-none"
 							id="message"
 							name="Message"
+							required
 						></textarea>
 					</div>
 				</div>
@@ -79,7 +78,7 @@ const ContactForm = () => {
 			<input type="hidden" name="_subject" value="New email form submission from First4Move.co.uk"></input>
 			<input type="text" name="_honey" style={{ display: 'none' }}></input>
 			<input type="hidden" name="_template" value="table"></input>
-			<div className="mt-5 md:mt-0">
+			<div className="mt-5">
 				<button
 					type="submit"
 					className="inline-flex text-white font-Inter font-semibold shadow-md hover:shadow-2xl hover:-translate-y-[2px] transition-all bg-orange border-0 py-3 px-7 focus:outline-none hover:bg-blue-600 rounded-xl text-md cursor-pointer"
