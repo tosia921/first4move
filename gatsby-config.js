@@ -21,6 +21,12 @@ module.exports = {
 				token: process.env.SANITY_TOKEN,
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-anchor-links',
+			options: {
+				offset: -100,
+			},
+		},
 		'gatsby-plugin-postcss',
 		'gatsby-plugin-image',
 		{

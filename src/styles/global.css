@@ -47,11 +47,11 @@ body {
 		width: 1240px;
 	}
 }
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
 	.page-padding {
-		width: 1440px;
+		width: 1240px;
 	}
-}
+} */
 
 /* .swiper-pagination {
 	bottom: -50px;

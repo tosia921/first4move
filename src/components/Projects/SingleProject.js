@@ -3,10 +3,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 import CheckOrange from '../../images/check.svg';
 import CheckBlue from '../../images/checkBlue.svg';
 
-const SingleProject = ({ number, name, text1, text2, bullets, secondary }) => {
-	console.log(bullets);
+const SingleProject = ({ number, name, text1, text2, bullets, secondary, projectName, id }) => {
 	return (
-		<article className="md:my-[75px] mb-10">
+		<article id={id} className="md:my-[75px] mb-10">
 			<div className={`md:flex ${secondary ? 'md:flex-row-reverse' : ''} md:gap-14 flex-1`}>
 				<div className="md:flex relative md:w-1/2 ">
 					<div className="md:w-full flex1">
@@ -35,7 +34,32 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary }) => {
 										maxWidth: '700px',
 									}}
 								>
-									<StaticImage src="../../images/kitchen1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									{projectName === 'kitchen' && (
+										<StaticImage src="../../images/projects/project-kitchen/kitchen-after.png" alt="Renovated Kitchen" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom1' && (
+										<StaticImage src="../../images/projects/project-lazienka-1/lazienka1-after.jpg" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom2' && (
+										<StaticImage src="../../images/projects/project-lazienka-2/laznienka2-after.jpg" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom3' && (
+										<StaticImage src="../../images/projects/project-lazienka-3/lazienka3-after.jpg" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom4' && (
+										<StaticImage src="../../images/projects/project-lazienka-4/lazienka4-after.jpg" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom5' && (
+										<StaticImage src="../../images/projects/projekt-lazienka-5/lazienka5-after.jpg" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'tiles' && (
+										<StaticImage src="../../images/projects/project-plytki/plytki-after.jpg" alt="Living room heated tiles" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'decking' && (
+										<StaticImage src="../../images/projects/project-decking/decking-after.jpg" alt="Garden new decking" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'stairs' && <StaticImage src="../../images/projects/project-stairs/stairs-agter.jpg" alt="new stairs" layout="fullWidth" aspectRatio={1 / 1} />}
+									{projectName === 'shop' && <StaticImage src="../../images/projects/projekt-lshop/shop-after.jpg" alt="Renovated shop" layout="fullWidth" aspectRatio={1 / 1} />}
 								</div>
 							</div>
 						</div>
@@ -75,7 +99,36 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary }) => {
 										maxWidth: '700px',
 									}}
 								>
-									<StaticImage src="../../images/bathroom1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+									{projectName === 'kitchen' && (
+										<StaticImage src="../../images/projects/project-kitchen/kitchen-beforter.jpeg" alt="Kitchen before Renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom1' && (
+										<StaticImage src="../../images/projects/project-lazienka-1/lazienka-1-before.jpg" alt="Kitchen before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom2' && (
+										<StaticImage src="../../images/projects/project-lazienka-2/lazienka2-before.jpg" alt="bathroom before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom3' && (
+										<StaticImage src="../../images/projects/project-lazienka-3/lazienka3-before.jpeg" alt="bathroom before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom4' && (
+										<StaticImage src="../../images/projects/project-lazienka-4/lazienka4-before.jpg" alt="bathroom before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'bathroom5' && (
+										<StaticImage src="../../images/projects/projekt-lazienka-5/lazienka5-before.jpg" alt="bathroom before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'tiles' && (
+										<StaticImage src="../../images/projects/project-plytki/plytki-before.jpg" alt="living room before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'decking' && (
+										<StaticImage src="../../images/projects/project-decking/decking-before.jpeg" alt="garden before installing decking" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'stairs' && (
+										<StaticImage src="../../images/projects/project-stairs/stairrs-before.jpg" alt="stairs before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
+									{projectName === 'shop' && (
+										<StaticImage src="../../images/projects/projekt-lshop/shop-before.jpg" alt="shop before renovation" layout="fullWidth" aspectRatio={1 / 1} />
+									)}
 								</div>
 							</div>
 						</div>
