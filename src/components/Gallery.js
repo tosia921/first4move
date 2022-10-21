@@ -11,7 +11,6 @@ import 'yet-another-react-lightbox/styles.css';
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen';
 import Slideshow from 'yet-another-react-lightbox/plugins/slideshow';
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
-import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 const Gallery = ({ data }) => {
@@ -40,7 +39,7 @@ const Gallery = ({ data }) => {
 				index={index}
 				close={() => setIndex(-1)}
 				slides={images}
-				plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+				plugins={[Fullscreen, Slideshow, Thumbnails]}
 				render={{
 					slide: (image, offset, rect) => {
 						const width = Math.round(Math.min(rect.width, (rect.height / image.height) * image.width));
