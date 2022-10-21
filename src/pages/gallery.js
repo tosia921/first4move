@@ -18,9 +18,7 @@ const gallery = ({ data }) => {
 					</p>
 					<div className="orange-line"></div>
 				</div>
-				<div className="my-10">
-					<Gallery data={data.allSanityGallery.edges[0].node.imagegallery} />
-				</div>
+				<div className="my-10">{/* <Gallery data={data.allSanityGallery.edges[0].node.imagegallery} /> */}</div>
 			</section>
 		</Layout>
 	);
