@@ -59,7 +59,6 @@ const projects = () => {
 					text1="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					text2="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					bullets={['We have high quality standards', 'We have high quality standards', 'We have high quality standards', 'We have high quality standards']}
-					primary
 				/>
 
 				<SingleProject
@@ -70,7 +69,7 @@ const projects = () => {
 					text1="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					text2="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					bullets={['We have high quality standards', 'We have high quality standards', 'We have high quality standards', 'We have high quality standards']}
-					primary
+					secondary
 				/>
 				<SingleProject
 					number="05."
@@ -80,7 +79,6 @@ const projects = () => {
 					text1="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					text2="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					bullets={['We have high quality standards', 'We have high quality standards', 'We have high quality standards', 'We have high quality standards']}
-					primary
 				/>
 				<SingleProject
 					number="06."
@@ -100,7 +98,6 @@ const projects = () => {
 					text1="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					text2="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
 					bullets={['We have high quality standards', 'We have high quality standards', 'We have high quality standards', 'We have high quality standards']}
-					primary
 				/>
 				<SingleProject
 					number="08."
