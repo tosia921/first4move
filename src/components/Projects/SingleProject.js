@@ -9,23 +9,25 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 			<div className={`md:flex ${secondary ? 'md:flex-row-reverse' : ''} md:gap-14 flex-1`}>
 				<div className="md:flex relative md:w-1/2 ">
 					<div className="md:w-full flex1">
-						<h3 className={`text-xl md:text-2xl  font-Baloo ${secondary ? 'text-blue' : 'text-orange'} font-bold mb-0 md:mb-4`}>
+						<h3 className={`text-xl border-t-2 pt-4 md:text-2xl  font-Baloo ${secondary ? 'text-blue' : 'text-orange'} font-bold mb-0 md:mb-4`}>
 							<span className="text-2xl md:text-3xl mr-2">{number}</span>
 							{name}
 						</h3>
 						<div className="flex flex-col-reverse md:flex-col mb-4 md:mb-0">
-							<p className="text-sm md:text-lg font-Baloo text-grey md:max-w-lg  mb-2 md:mb-10">{text1}</p>
-							{text2 && <p className="text-sm md:text-lg font-Baloo text-grey md:max-w-lg  mb-2 md:mb-10">{text2}</p>}
+							<p className="text-sm md:text-lg font-Baloo text-dark md:max-w-lg  mb-2 md:mb-10">{text1}</p>
+							{text2 && <p className="text-sm md:text-lg font-Baloo text-dark md:max-w-lg  mb-2 md:mb-10">{text2}</p>}
 
 							<div className={`grid w-full py-6 md:py-0 md:pb-6 relative`}>
 								<div
-									className={`relative ${secondary ? 'bg-blue' : 'bg-orange'} justify-self-end self-start w-[90%] h-[75%] rounded-br-3xl`}
+									className={`relative ${secondary ? 'bg-blue' : 'bg-orange'} ${secondary ? 'justify-self-start' : 'justify-self-end'} self-start w-[90%] h-[75%] ${
+										secondary ? 'rounded-bl-3xl' : 'rounded-br-3xl'
+									}`}
 									style={{
 										gridArea: '1/1',
 									}}
 								></div>
 								<div
-									className="justify-self-start self-end rounded-br-3xl overflow-hidden"
+									className={`${secondary ? 'justify-self-end' : 'justify-self-start'} self-end ${secondary ? 'rounded-bl-3xl' : 'rounded-br-3xl'} overflow-hidden`}
 									style={{
 										gridArea: '1/1',
 										height: '95%',
@@ -72,10 +74,10 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 							<div className="font-Baloo font-bold md:max-w-[90%] md:flex md:flex-col ">
 								<ul className="font-medium text-base md:text-lg">
 									{bullets.map((bullet) => (
-										<li className="mb-4">
+										<li className="mb-4 text-dark">
 											<div className="flex items-start">
 												<div className="w-[30px]">{secondary ? <CheckBlue className="w-full h-full" /> : <CheckOrange className="w-full h-full" />}</div>
-												<p className="mt-[2px] md:mt-0 ml-2 w-[calc(100%-30px)]">{bullet}</p>
+												<p className="mt-[2px] text-dark md:mt-0 ml-2 w-[calc(100%-30px)]">{bullet}</p>
 											</div>
 										</li>
 									))}
@@ -83,15 +85,17 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 							</div>
 						</div>
 						<div className="order-2 md:order-1">
-							<div className="grid w-full py-6 md:py-0 md:pb-6 relative">
+							<div className={`grid w-full py-6 md:py-0 md:pb-6 relative`}>
 								<div
-									className={`relative ${secondary ? 'bg-blue' : 'bg-orange'} justify-self-end self-end w-[90%] h-[75%] rounded-br-3xl`}
+									className={`relative ${secondary ? 'bg-blue' : 'bg-orange'} ${secondary ? 'justify-self-start' : 'justify-self-end'} self-end w-[90%] h-[75%] ${
+										secondary ? 'rounded-bl-3xl' : 'rounded-br-3xl'
+									}`}
 									style={{
 										gridArea: '1/1',
 									}}
 								></div>
 								<div
-									className="justify-self-start self-start rounded-br-3xl overflow-hidden"
+									className={`${secondary ? 'justify-self-end' : 'justify-self-start'} self-start ${secondary ? 'rounded-bl-3xl' : 'rounded-br-3xl'} overflow-hidden`}
 									style={{
 										gridArea: '1/1',
 										height: '95%',

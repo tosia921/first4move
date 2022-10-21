@@ -16,10 +16,10 @@ body {
 	@apply h-[2px] my-6 w-16 bg-orange;
 }
 .small-text-grey {
-	@apply text-sm md:text-lg text-center font-Baloo text-grey;
+	@apply text-sm md:text-lg text-center font-Baloo text-dark;
 }
 .small-text-grey--left {
-	@apply text-sm md:text-lg text-left font-Baloo text-grey;
+	@apply text-sm md:text-lg text-left font-Baloo text-dark;
 }
 .border-card {
 	border: 1px solid #ff913a;

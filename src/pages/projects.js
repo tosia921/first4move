@@ -21,13 +21,13 @@ const projects = () => {
 			<div className="page-padding ">
 				<p className="font-Baloo text-base">Click to jump to selected project:</p>
 				<div className="mt-4 last:mr-0 flex flex-wrap">
-					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project1" title="Modern Kitchen" />
-					<AnchorLink className=" mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-blue text-white" to="/projects#project2" title="Modern Bathroom" />
-					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project3" title="Stunning Bathroom" />
+					<AnchorLink className="text-dark mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project1" title="Modern Kitchen" />
+					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-blue text-white" to="/projects#project2" title="Modern Bathroom" />
+					<AnchorLink className="text-dark mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project3" title="Stunning Bathroom" />
 					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-blue text-white" to="/projects#project4" title="Bathroom with Shower" />
-					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project5" title="Heated Tiles Living room" />
+					<AnchorLink className="text-dark mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project5" title="Heated Tiles Living room" />
 					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-blue text-white" to="/projects#project6" title="Garden Decking" />
-					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project7" title="Refurbished Stairs" />
+					<AnchorLink className="text-dark mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-orange" to="/projects#project7" title="Refurbished Stairs" />
 					<AnchorLink className="mb-2 py-2 px-4 text-base md:text-lg font-Baloo mr-2 bg-blue text-white" to="/projects#project8" title="Shop Transformation" />
 				</div>
 			</div>

@@ -50,7 +50,7 @@ const ServiceCard = ({ title, copy, icon }) => {
 			</div>
 			<div className="h-[60%] ">
 				<h3 className="text-xl font-bold font-Baloo mb-2 group-hover:text-white">{title}</h3>
-				<p className="font-Baloo text-sm md:text-base text-grey leading-5 group-hover:text-white">{copy}</p>
+				<p className="font-Baloo text-sm md:text-base text-dark leading-5 group-hover:text-white">{copy}</p>
 			</div>
 		</div>
 	);

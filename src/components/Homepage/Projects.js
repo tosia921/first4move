@@ -16,7 +16,7 @@ const Projects = () => {
 				<div className="md:flex mb-4 relative md:w-1/2">
 					<div className="md:w-full">
 						<h3 className="text-xl md:text-2xl text-center md:text-left font-Baloo text-orange font-bold mb-4">01. Modern Kitchen</h3>
-						<p className="text-sm md:text-lg font-Baloo text-grey md:max-w-lg text-center md:text-left mb-2 md:mb-10">
+						<p className="text-sm md:text-lg font-Baloo text-dark md:max-w-lg text-center md:text-left mb-2 md:mb-10">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 						</p>
 
@@ -47,7 +47,7 @@ const Projects = () => {
 						<div className="md:flex md:justify-end">
 							<div className="md:w-[90%]">
 								<h3 className="text-xl md:text-2xl text-center md:text-left font-Baloo text-blue font-bold mb-4 md:mt-4">02. Amazing Bathroom</h3>
-								<p className="text-sm md:text-lg font-Baloo text-grey md:max-w-lg text-center md:text-left mb-2 md:mb-6">
+								<p className="text-sm md:text-lg font-Baloo text-dark md:max-w-lg text-center md:text-left mb-2 md:mb-6">
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 								</p>
 							</div>

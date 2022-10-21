@@ -37,7 +37,7 @@ const Hero = () => {
 					Have a Peace of Mind <br></br> Knowing Your Project is <br></br> in Good Hands
 					<span className="text-orange ml-1">.</span>
 				</h1>
-				<p className="text-sm lg:text-base sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Baloo text-grey">
+				<p className="text-sm lg:text-base sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Baloo text-dark">
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 				</p>
 				<div className="flex mr-5">
@@ -51,7 +51,7 @@ const Hero = () => {
 			<div className="hidden lg:block absolute -bottom-2 xl:bottom-[15%] left-[40%] xl:left-[30%] -z-10">
 				<BlobTwo />
 			</div>
-			<div className="hidden lg:block absolute bottom-0 lg:-left-[6rem] xl:-left-[calc((100vw-1024px)/2)] xxl:-left-[calc((100vw-1240px)/2)] xxxl:-left-[calc((100vw-1440px)/2)] -z-10 h-[20%] w-auto">
+			<div className="hidden lg:block absolute bottom-0 lg:-left-[6rem] xl:-left-[calc((100vw-1024px)/2)] xxl:-left-[calc((100vw-1240px)/2)] -z-10 h-[20%] w-auto">
 				<Circle style={{ width: '100%', height: '100%' }} />
 			</div>
 			<div className="hidden lg:block absolute top-[35%] xl:top-[25%] left-[40%] -z-10">
