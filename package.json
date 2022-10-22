@@ -22,7 +22,7 @@
 		"gatsby-plugin-react-svg": "^3.1.0",
 		"gatsby-plugin-sanity-image": "^0.13.0",
 		"gatsby-plugin-sharp": "^4.23.0",
-		"gatsby-plugin-sitemap": "^5.23.0",
+		"gatsby-plugin-sitemap": "^5.24.0",
 		"gatsby-source-filesystem": "^4.23.0",
 		"gatsby-source-sanity": "^7.4.2",
 		"gatsby-transformer-sharp": "^4.23.0",

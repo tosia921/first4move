@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `first4move`,
-		siteUrl: `https://www.yourdomain.tld`,
+		siteUrl: `https://www.first4move.netlify.app`,
 	},
 	plugins: [
 		{
@@ -29,6 +29,7 @@ module.exports = {
 		},
 		'gatsby-plugin-postcss',
 		'gatsby-plugin-image',
+		'gatsby-plugin-sitemap',
 		{
 			resolve: `gatsby-plugin-sharp`,
 			options: {
