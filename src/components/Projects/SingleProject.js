@@ -63,6 +63,14 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 									{projectName === 'stairs' && <StaticImage src="../../images/projects/project-stairs/stairs-agter.jpg" alt="new stairs" layout="fullWidth" aspectRatio={1 / 1} />}
 									{projectName === 'shop' && <StaticImage src="../../images/projects/projekt-lshop/shop-after.jpg" alt="Renovated shop" layout="fullWidth" aspectRatio={1 / 1} />}
 								</div>
+								<div
+									style={{
+										gridArea: '1/1',
+									}}
+									className={`font-Baloo ${secondary ? 'justify-self-end' : 'justify-self-start'} self-end z-10 text-lg px-4 bg-dark py-2 font-semibold text-white`}
+								>
+									AFTER
+								</div>
 							</div>
 						</div>
 					</div>
@@ -133,6 +141,14 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 									{projectName === 'shop' && (
 										<StaticImage src="../../images/projects/projekt-lshop/shop-before.jpg" alt="shop before renovation" layout="fullWidth" aspectRatio={1 / 1} />
 									)}
+								</div>
+								<div
+									style={{
+										gridArea: '1/1',
+									}}
+									className={`font-Baloo ${secondary ? 'justify-self-end' : 'justify-self-start'} self-start z-10 text-lg px-4 bg-dark py-2 font-semibold text-white`}
+								>
+									BEFORE
 								</div>
 							</div>
 						</div>

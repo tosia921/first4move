@@ -9,7 +9,10 @@ const projects = () => {
 	return (
 		<Layout>
 			<PageHero label="Projects" page="projects" />
-			<section className="page-padding">
+			<div className="px-4 py-2 bg-dark text-white font-Baloo fixed right-2 bottom-2 md:bottom-5 md:right-5 z-20">
+				<AnchorLink to="/projects#pagetop" title="Scroll Top" />
+			</div>
+			<section id="pagetop" className="page-padding">
 				<div className="flex flex-col md:items-start">
 					<h2 className="text-3xl  md:text-4xl font-Baloo mb-3 font-bold">Projects we are the most proud of</h2>
 					<p className="small-text-grey--left text-left md:text-left max-w-[90%] md:max-w-[70%]">
