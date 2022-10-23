@@ -18,3 +18,10 @@ const about = () => {
 };
 
 export default about;
+
+export const Head = () => (
+	<>
+		<title>About us</title>
+		<meta name="description" content="fill when " />
+	</>
+);

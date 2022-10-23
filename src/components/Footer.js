@@ -39,13 +39,10 @@ const Footer = () => {
 				</div>
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">Usefull Links</h5>
-					<Link className="text-footer block" to="/">
+					<Link className="text-footer block" to="/sitemap/sitemap-0.xml">
 						Sitemap
 					</Link>
-					<Link className="text-footer block" to="/about">
-						Privacy Policy
-					</Link>
-					<Link className="text-footer block" to="/services">
+					<Link className="text-footer block" to="/termsandconditions">
 						Terms and Conditions
 					</Link>
 				</div>

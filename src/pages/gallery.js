@@ -28,6 +28,13 @@ const gallery = ({ data }) => {
 
 export default gallery;
 
+export const Head = () => (
+	<>
+		<title>Gallery</title>
+		<meta name="description" content="Image's gallery containing our past projects that we are the most proud of." />
+	</>
+);
+
 export const query = graphql`
 	query {
 		allSanityGallery {

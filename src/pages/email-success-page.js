@@ -15,3 +15,10 @@ const emailsuccess = () => {
 };
 
 export default emailsuccess;
+
+export const Head = () => (
+	<>
+		<title>Email sent</title>
+		<meta name="description" content="fill when " />
+	</>
+);

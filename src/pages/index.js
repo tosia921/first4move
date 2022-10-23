@@ -22,4 +22,9 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>First4Move</title>;
+export const Head = () => (
+	<>
+		<title>First4Move - Homepage</title>
+		<meta name="description" content="First4move is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
+	</>
+);

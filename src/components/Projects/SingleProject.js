@@ -9,8 +9,8 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 			<div className={`md:flex ${secondary ? 'md:flex-row-reverse' : ''} md:gap-14 flex-1`}>
 				<div className="md:flex relative md:w-1/2 ">
 					<div className="md:w-full flex1">
-						<h3 className={`text-xl border-t-2 pt-4 md:text-2xl  font-Baloo ${secondary ? 'text-blue' : 'text-orange'} font-bold mb-0 md:mb-4`}>
-							<span className="text-2xl md:text-3xl mr-2">{number}</span>
+						<h3 className={`text-3xl border-t-2 pt-4 md:text-4xl  font-Baloo ${secondary ? 'text-blue' : 'text-orange'} font-bold mb-0 md:mb-4`}>
+							<span className="text-4xl md:text-5xl mr-2">{number}</span>
 							{name}
 						</h3>
 						<div className="flex flex-col-reverse md:flex-col mb-4 md:mb-0">
@@ -81,8 +81,8 @@ const SingleProject = ({ number, name, text1, text2, bullets, secondary, project
 						<div className="order-3 md:order-3">
 							<div className="font-Baloo font-bold md:max-w-[90%] md:flex md:flex-col ">
 								<ul className="font-medium text-base md:text-lg">
-									{bullets.map((bullet) => (
-										<li className="mb-4 text-dark">
+									{bullets.map((bullet, index) => (
+										<li className="mb-4 text-dark" key={index}>
 											<div className="flex items-start">
 												<div className="w-[30px]">{secondary ? <CheckBlue className="w-full h-full" /> : <CheckOrange className="w-full h-full" />}</div>
 												<p className="mt-[2px] text-dark md:mt-0 ml-2 w-[calc(100%-30px)]">{bullet}</p>

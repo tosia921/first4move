@@ -119,3 +119,10 @@ const projects = () => {
 };
 
 export default projects;
+
+export const Head = () => (
+	<>
+		<title>Projects</title>
+		<meta name="description" content="Collection of all our past projects that we are the most proud of. Take a look and compare how places we worked at looked before and after the ranovation!" />
+	</>
+);

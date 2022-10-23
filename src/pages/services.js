@@ -32,3 +32,10 @@ const services = () => {
 };
 
 export default services;
+
+export const Head = () => (
+	<>
+		<title>Services</title>
+		<meta name="description" content="We are experienced and quality focused renovation business based in Edinburgh, Scotland. Take a look at all the services we provide for our clients." />
+	</>
+);
