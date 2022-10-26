@@ -22,9 +22,42 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => (
-	<>
-		<title>First4Move - Homepage</title>
-		<meta name="description" content="First4move is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
-	</>
-);
+export const Head = () => {
+	const schemaMarkup = {
+		'@context': 'https://schema.org',
+		'@type': 'HomeAndConstructionBusiness',
+		name: 'Lukasz Jaskiewicz',
+		image: 'https://www.first4move.co.uk/images/logo',
+		'@id': '',
+		url: 'https://www.first4move.co.uk',
+		telephone: '+447476776656',
+		priceRange: '$$',
+		address: {
+			'@type': 'PostalAddress',
+			streetAddress: '',
+			addressLocality: 'Edinburgh',
+			postalCode: '',
+			addressCountry: 'GB',
+		},
+		geo: {
+			'@type': 'GeoCoordinates',
+			latitude: 55.9,
+			longitude: 3.1,
+		},
+		openingHoursSpecification: {
+			'@type': 'OpeningHoursSpecification',
+			dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+			opens: '00:00',
+			closes: '23:59',
+		},
+	};
+
+	return (
+		<>
+			<title>First4Move - Homepage</title>
+			<meta name="description" content="First4move is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
+
+			<script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
+		</>
+	);
+};
