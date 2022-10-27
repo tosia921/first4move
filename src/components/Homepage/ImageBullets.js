@@ -12,7 +12,7 @@ import Subtract from '../../images/blobs/Subtract.svg';
 const ImageBullets = () => {
 	return (
 		<div className="page-padding md:flex mb-12 relative md:my-[75px]">
-			<div className="hidden lg:block absolute -top-[100px] lg:-right-[6rem] xl:-right-[calc((100vw-1040px)/2)] xxl:-right-[calc((100vw-1260px)/2)] -z-10 w-[17.5%] ">
+			<div className="hidden lg:block absolute -top-[100px] lg:-right-[0rem] xl:-right-[calc((100vw-1040px)/2)] xxl:-right-[calc((100vw-1260px)/2)] -z-10 w-[17.5%] ">
 				<Blob className="w-full h-auto" />
 			</div>
 			<div className="grid w-full py-6 md:w-1/2 relative">

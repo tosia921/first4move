@@ -29,9 +29,9 @@ const Header = () => {
 	};
 
 	return (
-		<header className={`sticky top-0 left-0 z-50`}>
-			<div className={`relative z-30 transition-all ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
-				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm inter md:justify-end px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)]">
+		<header className={`sticky w-full  top-0 left-0 z-50`}>
+			<div className={`relative bg-orange z-30 transition-all ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
+				<div className=" h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm inter page-padding md:justify-end">
 					<div className="flex items-center">
 						<div className="mr-2 md:w-8 md:h-auto">
 							<PhoneIcon />
@@ -53,40 +53,40 @@ const Header = () => {
 						<FbIcon />
 					</a>
 				</div>
-				<div
-					className={`h-12 md:h-16 flex items-center justify-between shadow-sm bg-white px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] `}
-				>
-					<Link to="/" className="">
-						<span className="text-orange font-Baloo text-3xl font-bold">
-							<span>1</span>
-							<span className="text-blue">2</span>
-							<span className="text-green">3</span>
-						</span>
-						<span className="text-black font-Baloo text-2xl font-bold">RenovatorEdinburgh</span>
-					</Link>
-					<div className={`lg:hidden -mr-2`}>
-						<Hamburger toggled={isOpen} toggle={setOpen} className="" />
+				<div className={`h-12 md:h-16 w-full shadow-sm bg-white `}>
+					<div className="page-padding flex items-center justify-between h-full w-full">
+						<Link to="/" className="">
+							<span className="text-orange font-Baloo text-3xl font-bold">
+								<span>1</span>
+								<span className="text-blue">2</span>
+								<span className="text-green">3</span>
+							</span>
+							<span className="text-black font-Baloo text-2xl font-bold">RenovatorEdinburgh</span>
+						</Link>
+						<div className={`lg:hidden -mr-2`}>
+							<Hamburger toggled={isOpen} toggle={setOpen} className="" />
+						</div>
+						<nav className={`gap-4 hidden lg:flex font-Baloo text-lg font-bold`}>
+							<Link className="" to="/" activeClassName="text-orange">
+								Home
+							</Link>
+							<Link to="/about" activeClassName="text-orange">
+								About Us
+							</Link>
+							<Link to="/services" activeClassName="text-orange">
+								Services
+							</Link>
+							<Link to="/gallery" activeClassName="text-orange">
+								Gallery
+							</Link>
+							<Link to="/projects" activeClassName="text-orange">
+								Projects
+							</Link>
+							<Link to="/contact" activeClassName="text-orange">
+								Contact
+							</Link>
+						</nav>
 					</div>
-					<nav className={`gap-4 hidden lg:flex font-Baloo text-lg font-bold`}>
-						<Link className="" to="/" activeClassName="text-orange">
-							Home
-						</Link>
-						<Link to="/about" activeClassName="text-orange">
-							About Us
-						</Link>
-						<Link to="/services" activeClassName="text-orange">
-							Services
-						</Link>
-						<Link to="/gallery" activeClassName="text-orange">
-							Gallery
-						</Link>
-						<Link to="/projects" activeClassName="text-orange">
-							Projects
-						</Link>
-						<Link to="/contact" activeClassName="text-orange">
-							Contact
-						</Link>
-					</nav>
 				</div>
 			</div>
 			<nav
