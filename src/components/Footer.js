@@ -28,14 +28,17 @@ const Footer = () => {
 				</div>
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">Contact Information</h5>
-					<p className="text-footer">6 Example Street</p>
 					<p className="text-footer">Edinburgh, EH54 5TY</p>
+
 					<a href="tel:0738849293" className="text-footer ">
-						<p>0738 849 293</p>
+						<p>07809 433290</p>
 					</a>
 					<a href="mailto:123renovatoredinburgh@gmail.com" className="text-footer ">
 						<p>123renovatoredinburgh@gmail.com</p>
 					</a>
+					<p className="text-footer mt-2">
+						We mostly work around <b>Edinburgh, East Lothian and West Lothian</b>
+					</p>
 				</div>
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">Usefull Links</h5>

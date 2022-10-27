@@ -31,14 +31,14 @@ const Header = () => {
 	return (
 		<header className={`sticky top-0 left-0 z-50`}>
 			<div className={`relative z-30 transition-all ${isSticky ? '-translate-y-10 md:-translate-y-14' : ''}`}>
-				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm inter md:justify-end px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] xl:w-full xxxl:px-[calc((100vw-1440px)/2)]">
+				<div className="bg-orange h-10 md:h-14 flex justify-between items-center gap-3 md:gap-5 text-sm inter md:justify-end px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)]">
 					<div className="flex items-center">
 						<div className="mr-2 md:w-8 md:h-auto">
 							<PhoneIcon />
 						</div>
 
 						<a href="tel:0738849293" className="inter text-white font-semibold text-base  md:text-lg">
-							0738 849 293
+							07809 433290
 						</a>
 					</div>
 					<div className="hidden md:flex items-center">
@@ -54,15 +54,20 @@ const Header = () => {
 					</a>
 				</div>
 				<div
-					className={`h-12 md:h-16 flex items-center justify-between shadow-sm bg-white px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] xl:w-full xxxl:px-[calc((100vw-1440px)/2)]`}
+					className={`h-12 md:h-16 flex items-center justify-between shadow-sm bg-white px-4 md:px-16 lg:mx-auto lg:px-[6rem] xl:px-[calc((100vw-1024px)/2)] xxl:px-[calc((100vw-1240px)/2)] `}
 				>
-					<div className="">
-						<Logo />
-					</div>
-					<div className={`md:hidden -mr-2`}>
+					<Link to="/" className="">
+						<span className="text-orange font-Baloo text-3xl font-bold">
+							<span>1</span>
+							<span className="text-blue">2</span>
+							<span className="text-green">3</span>
+						</span>
+						<span className="text-black font-Baloo text-2xl font-bold">RenovatorEdinburgh</span>
+					</Link>
+					<div className={`lg:hidden -mr-2`}>
 						<Hamburger toggled={isOpen} toggle={setOpen} className="" />
 					</div>
-					<nav className={`gap-4 hidden md:flex font-Baloo text-lg font-bold`}>
+					<nav className={`gap-4 hidden lg:flex font-Baloo text-lg font-bold`}>
 						<Link className="" to="/" activeClassName="text-orange">
 							Home
 						</Link>
@@ -87,7 +92,7 @@ const Header = () => {
 			<nav
 				className={`gap-4 flex transition-all font-Baloo absolute top-0 right-full h-screen w-screen bg-white flex-col text-4xl font-bold justify-center items-center ${
 					isOpen ? 'right-0' : ''
-				}  md:hidden`}
+				}  lg:hidden`}
 			>
 				<Link className="" to="/" activeClassName="text-orange">
 					Home
