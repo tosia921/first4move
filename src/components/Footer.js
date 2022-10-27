@@ -12,7 +12,7 @@ const Footer = () => {
 					<p className="pb-2 max-w-[95%] xl:max-w-[90%] xxl:max-w-[80%]">
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
 					</p>
-					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/First4move/" target="_blank" rel="noreferrer">
+					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/123RenovatorEdinburgh" target="_blank" rel="noreferrer">
 						<FbIcon />
 					</a>
 				</div>

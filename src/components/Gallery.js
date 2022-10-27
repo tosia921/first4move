@@ -27,10 +27,6 @@ const Gallery = ({ data }) => {
 		}
 	}, [images, data]);
 
-	useEffect(() => {
-		console.log('index', index);
-	}, [images]);
-
 	return (
 		<div>
 			<PhotoAlbum layout="columns" photos={images} renderPhoto={SanityGalleryImage} onClick={(event, photo, index) => setIndex(index)} />

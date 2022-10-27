@@ -27,9 +27,9 @@ export const Head = () => {
 		'@context': 'https://schema.org',
 		'@type': 'HomeAndConstructionBusiness',
 		name: 'Lukasz Jaskiewicz',
-		image: 'https://www.first4move.co.uk/images/logo',
+		image: 'https://www.123renovatoredinburgh.co.uk/logo',
 		'@id': '',
-		url: 'https://www.first4move.co.uk',
+		url: 'https://www.123renovatoredinburgh.co.uk',
 		telephone: '+447476776656',
 		priceRange: '$$',
 		address: {
@@ -44,18 +44,26 @@ export const Head = () => {
 			latitude: 55.9,
 			longitude: 3.1,
 		},
-		openingHoursSpecification: {
-			'@type': 'OpeningHoursSpecification',
-			dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-			opens: '00:00',
-			closes: '23:59',
-		},
+		openingHoursSpecification: [
+			{
+				'@type': 'OpeningHoursSpecification',
+				dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+				opens: '09:00',
+				closes: '17:00',
+			},
+			{
+				'@type': 'OpeningHoursSpecification',
+				dayOfWeek: 'Saturday',
+				opens: '09:00',
+				closes: '15:00',
+			},
+		],
 	};
 
 	return (
 		<>
 			<title>First4Move - Homepage</title>
-			<meta name="description" content="First4move is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
+			<meta name="description" content="123 Renovator Edinburgh is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
 
 			<script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
 		</>

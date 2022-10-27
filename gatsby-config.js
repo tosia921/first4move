@@ -31,6 +31,14 @@ module.exports = {
 		'gatsby-plugin-image',
 		'gatsby-plugin-sitemap',
 		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				host: 'https://www.123renovatoredinburgh.co.uk',
+				sitemap: 'https://www.123renovatoredinburgh.co.uk/sitemap/sitemap-0.xml',
+				policy: [{ userAgent: '*', allow: '/' }],
+			},
+		},
+		{
 			resolve: `gatsby-plugin-sharp`,
 			options: {
 				defaults: {

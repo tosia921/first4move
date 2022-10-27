@@ -3,10 +3,8 @@ import Layout from '../components/Layout';
 import PageHero from '../components/PageHero';
 import Gallery from '../components/Gallery';
 import { graphql } from 'gatsby';
-import Image from 'gatsby-plugin-sanity-image';
 
 const gallery = ({ data }) => {
-	console.log(data);
 	return (
 		<Layout>
 			<PageHero label="Gallery" page="gallery" />
