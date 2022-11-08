@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../components/Button';
 
 const ContactForm = () => {
 	return (
@@ -8,69 +7,69 @@ const ContactForm = () => {
 				<div className="flex flex-col justify-between">
 					<div className="flex flex-wrap -mx-3 ">
 						<div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="FirstName">
+							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
 								First Name
+								<input
+									className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+									id="grid-first-name"
+									type="text"
+									name="firstname"
+									required
+								/>
 							</label>
-							<input
-								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-								id="grid-first-name"
-								type="text"
-								name="FirstName"
-								required
-							/>
 						</div>
 						<div className="w-full md:w-1/2 px-3">
-							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="LastName">
+							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
 								Last Name
+								<input
+									className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+									id="grid-last-name"
+									type="text"
+									name="lastname"
+									required
+								/>
 							</label>
-							<input
-								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-								id="grid-last-name"
-								type="text"
-								name="LastName"
-								required
-							/>
 						</div>
 					</div>
 					<div className="flex flex-wrap -mx-3 ">
 						<div className="w-full px-3">
-							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="Email">
+							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="email">
 								E-mail
+								<input
+									className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+									id="email"
+									type="email"
+									name="email"
+									required
+								/>
 							</label>
-							<input
-								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-								id="email"
-								type="email"
-								name="Email"
-								required
-							/>
 						</div>
 					</div>
 					<div className="flex flex-wrap -mx-3">
 						<div className="w-full px-3">
-							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="Phone">
+							<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="phone">
 								Phone Number
+								<input
+									className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+									id="phone"
+									type="text"
+									name="Phone"
+								/>
 							</label>
-							<input
-								className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-								id="phone"
-								type="text"
-								name="Phone"
-							/>
 						</div>
 					</div>
 				</div>
 				<div className="flex w-full flex-wrap mb-6 md:ml-5">
 					<div className="w-full ">
-						<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="Message">
+						<label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="message">
 							Message
+							<textarea
+								className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-72 md:h-full resize-none"
+								id="message"
+								name="Message"
+								required
+							></textarea>
 						</label>
-						<textarea
-							className=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-72 md:h-full resize-none"
-							id="message"
-							name="Message"
-							required
-						></textarea>
 					</div>
 				</div>
 			</div>

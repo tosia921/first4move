@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
 import { Spin as Hamburger } from 'hamburger-react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 //icons
-import Logo from '../images/Logo.svg';
+import Logo from '../images/logonew.svg';
 import FbIcon from '../images/icons/fb.svg';
 import PhoneIcon from '../images/icons/phone-icon.svg';
 import MailIcon from '../images/icons/mail-icon.svg';
+import autoprefixer from 'autoprefixer';
 
 const Header = () => {
 	// const headerRef = useRef();
@@ -53,15 +55,12 @@ const Header = () => {
 						<FbIcon />
 					</a>
 				</div>
-				<div className={`h-12 md:h-16 w-full shadow-sm bg-white `}>
+				<div className={`h-16 md:h-20 w-full shadow-sm bg-white `}>
 					<div className="page-padding flex items-center justify-between h-full w-full">
 						<Link to="/" className="">
-							<span className="text-orange font-Baloo text-3xl font-bold">
-								<span>1</span>
-								<span className="text-blue">2</span>
-								<span className="text-green">3</span>
-							</span>
-							<span className="text-black font-Baloo text-2xl font-bold">RenovatorEdinburgh</span>
+							<div className="h-14 w-36 md:h-[70px] md:w-44">
+								<StaticImage src="../images/logopng.png" alt="Renovated Bathroom" layout="fullWidth" />
+							</div>
 						</Link>
 						<div className={`lg:hidden -mr-2`}>
 							<Hamburger toggled={isOpen} toggle={setOpen} className="" />

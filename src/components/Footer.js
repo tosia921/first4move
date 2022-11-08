@@ -28,7 +28,7 @@ const Footer = () => {
 				</div>
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">Contact Information</h5>
-					<p className="text-footer">Edinburgh, EH54 5TY</p>
+					<p className="text-footer">Edinburgh, EH17 8EU</p>
 
 					<a href="tel:0738849293" className="text-footer ">
 						<p>07809 433290</p>
