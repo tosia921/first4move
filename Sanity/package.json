@@ -1,8 +1,8 @@
 {
-	"name": "first4move",
+	"name": "123renovatoredinburgh",
 	"private": true,
 	"version": "1.0.0",
-	"description": "",
+	"description": "Sanity backend to manage 123renovatoredinburgh gallery page",
 	"main": "package.json",
 	"author": "Lukasz Jaskiewicz <first4move@gmail.com>",
 	"license": "UNLICENSED",

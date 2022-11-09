@@ -73,8 +73,8 @@ const ContactForm = () => {
 					</div>
 				</div>
 			</div>
-			<input type="hidden" name="_next" value="https://first4move.netlify.app/email-success-page" />
-			<input type="hidden" name="_subject" value="New email form submission from First4Move.co.uk"></input>
+			<input type="hidden" name="_next" value="https://www.123renovatoredinburgh.co.uk/email-success-page" />
+			<input type="hidden" name="_subject" value="New email form submission from 123renovatoredinburgh.co.uk"></input>
 			<input type="text" name="_honey" style={{ display: 'none' }}></input>
 			<input type="hidden" name="_template" value="table"></input>
 			<div className="mt-5">

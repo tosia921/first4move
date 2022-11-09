@@ -80,6 +80,6 @@ export default contact;
 export const Head = () => (
 	<>
 		<title>Contact us</title>
-		<meta name="description" content="First4move is based in Edinburgh, Scotland. " />
+		<meta name="description" content="123 Renovator Edinburgh is based in Edinburgh, Scotland. " />
 	</>
 );
