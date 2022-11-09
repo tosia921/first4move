@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		title: `first4move`,
-		siteUrl: `https://www.first4move.netlify.app`,
+		title: `123 Renovator Edinburgh`,
+		siteUrl: `https://www.123renovatoredinburgh.co.uk/`,
 	},
 	plugins: [
 		{
