@@ -50,6 +50,15 @@ const Footer = () => {
 					</Link>
 				</div>
 			</div>
+			<div className="w-full flex justify-center flex-col text-xs items-center mt-10">
+				<p className="text-center">&copy; Copyright 2023 Lukasz Jaskiewicz www.123renovatoredinburgh.co.uk. All rights reserved.</p>
+				<p className="text-center mt-2">
+					Developed by{' '}
+					<a className="font-bold" href="mailto:tomaszposiadala@gmail.com">
+						Tomasz Posiadala
+					</a>
+				</p>
+			</div>
 		</footer>
 	);
 };

@@ -62,7 +62,7 @@ export const Head = () => {
 
 	return (
 		<>
-			<title>First4Move - Homepage</title>
+			<title>123 Renovator Edinburgh</title>
 			<meta name="description" content="123 Renovator Edinburgh is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
 
 			<script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
