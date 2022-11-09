@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
 	return (
-		<form className="w-full" action="https://formsubmit.co/tomaszposiadala@gmail.com" method="POST">
+		<form className="w-full" action="https://formsubmit.co/123renovatoredinburgh@gmail.com" method="POST">
 			<div className="md:flex">
 				<div className="flex flex-col justify-between">
 					<div className="flex flex-wrap -mx-3 ">
