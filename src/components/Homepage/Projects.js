@@ -53,22 +53,8 @@ const Projects = () => {
 							</div>
 						</div>
 						<div className="grid w-full py-6 relative">
-							<div
-								className="relative bg-blue justify-self-end self-end w-[90%] h-[75%] rounded-br-3xl"
-								style={{
-									gridArea: '1/1',
-								}}
-							></div>
-							<div
-								className="justify-self-start self-start rounded-br-3xl overflow-hidden"
-								style={{
-									gridArea: '1/1',
-									height: '95%',
-									width: '95%',
-									maxWidth: '700px',
-								}}
-							>
-								<StaticImage src="../../images/bathroom1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} />
+							<div className="image-wrapper--blue image-border-radius-bl">
+								<StaticImage src="../../images/bathroom1.png" alt="Renovated Bathroom" layout="fullWidth" aspectRatio={1 / 1} className="image-border-radius-bl" />
 							</div>
 						</div>
 					</div>

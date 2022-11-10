@@ -4,26 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 const TextImage = () => {
 	return (
 		<section className="page-padding mt-4 flex relative justify-center flex-col-reverse md:flex-row-reverse md:items-start md:columns-2 md:gap-2">
-			<div className="grid w-full py-0 pb-1 md:pb-0 md:py-6">
-				<div
-					className="relative bg-orange justify-self-end self-end w-[90%] h-[90%] rounded-bl-3xl"
-					style={{
-						gridArea: '1/1',
-					}}
-				></div>
-				<StaticImage
-					src="../../images/about-image1.png"
-					alt="Renovated Bathroom"
-					layout="fullWidth"
-					style={{
-						gridArea: '1/1',
-						height: '95%',
-						width: '95%',
-						borderBottomLeftRadius: '1.5rem',
-						maxWidth: '700px',
-					}}
-					aspectRatio={1 / 1}
-				/>
+			<div className="image-border-radius-bl image-wrapper--orange">
+				<StaticImage src="../../images/about-image1.png" alt="Renovated Bathroom" layout="fullWidth" className="image-border-radius-bl" aspectRatio={1 / 1} />
 			</div>
 			<div className="w-full">
 				<h1 className=" text-3xl md:text-2xl lg:text-4xl xxl:text-4xl font-extrabold mt-5 font-Baloo">Our Story</h1>
