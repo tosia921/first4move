@@ -11,7 +11,7 @@ const TextImage = () => {
 				<h1 className=" text-3xl md:text-2xl lg:text-4xl xxl:text-4xl font-extrabold mt-5 font-Baloo">Our Story</h1>
 				<div className="orange-line"></div>
 				<p className="text-base sm:max-w-[80%] mb-2 mt-2 lg:mb-4 lg:mt-4 font-Inter text-black leading-relaxed">
-				123 Renovator is a progressive Edinburgh based company specialising in general home improvements for residential and commercial customers.
+				123 Renovator is a progressive Edinburgh-based company specializing in general home improvements for residential and commercial customers.
 				</p>
 				<p className="text-base sm:max-w-[80%] mb-2 mt-2 lg:mb-4 lg:mt-4 font-Inter text-black leading-relaxed">
 				We have grown our company by 'word of mouth' recommendations by delivering professional and highest standards service.

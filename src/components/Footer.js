@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">About Us</h5>
 					<p className="pb-2 max-w-[95%] xl:max-w-[90%] xxl:max-w-[80%]">
-					123 Renovator is a progressive Edinburgh based company specialising in general home improvements for residential and commercial customers.
+					123 Renovator is a progressive Edinburgh-based company specializing in general home improvements for residential and commercial customers.
 					</p>
 					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/123RenovatorEdinburgh" target="_blank" rel="noreferrer">
 						<FbIcon />
@@ -37,7 +37,7 @@ const Footer = () => {
 						<p>123renovatoredinburgh@gmail.com</p>
 					</a>
 					<p className="text-footer mt-2">
-						We mostly work around <b>Edinburgh, East Lothian and West Lothian</b>
+						We mostly work around <strong>Edinburgh, East Lothian and West Lothian</strong>
 					</p>
 				</div>
 				<div className="w-full pt-2 font-Baloo">

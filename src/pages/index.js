@@ -62,8 +62,8 @@ export const Head = () => {
 
 	return (
 		<>
-			<title>123 Renovator Edinburgh</title>
-			<meta name="description" content="123 Renovator Edinburgh is a renovation business with many years of experience. We are located in Edinburgh, Scotland and operate within that region" />
+			<title>123 Renovator Edinburgh - Home Renovations in Edinburgh</title>
+			<meta name="description" content="123 Renovator is a progressive Edinburgh-based company specializing in general home improvements for residential and commercial customers." />
 
 			<script type="application/ld+json">{JSON.stringify(schemaMarkup)}</script>
 		</>
