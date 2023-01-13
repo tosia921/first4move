@@ -20,7 +20,7 @@ const Hero = () => {
 					<span className="text-orange ml-1">.</span>
 				</h1>
 				<p className="text-sm lg:text-lg sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Baloo text-dark">
-					We are <strong>123RenovatorEdinburgh</strong>, established and professional Renovation business working mainly around Edinburgh, East Lothian and West Lothian that offers a wide range of services.
+					We are <strong>123RenovatorEdinburgh</strong>, established and professional Renovation business working mainly around Edinburgh, East Lothian and West Lothian. We specialize in general home improvements for residential and commercial customers.
 				</p>
 				<div className="flex mr-5">
 					<Button text={'Services'} to="/services" mr />
