@@ -12,7 +12,7 @@ const Services = () => {
 			</p>
 			<div className="orange-line"></div>
 			<div className="columns-2 md:columns-4 my-2 md:my-6">
-				<ServiceCard title="Kitchen" copy="Whatever you need ,when it comses to Kitchen renovation, 123Renovator will help you realise your vision." icon="kitchen" />
+				<ServiceCard title="Kitchen" copy="Whatever you need when it comes to Kitchen renovation, 123Renovator will help you realise your vision." icon="kitchen" />
 				<ServiceCard title="Bathroom" copy="We offer a range of services so we able to create a Bathroom that works for you." icon="bathroom" />
 
 				<ServiceCard title="Flooring" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="flooring" />

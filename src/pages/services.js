@@ -17,10 +17,10 @@ const services = () => {
 					<div className="orange-line"></div>
 				</div>
 				<div className="flex w-full gap-4 justify-center md:justify-start flex-wrap my-2 md:my-6 ">
-					<ServiceCard title="Kitchen" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="kitchen" />
-					<ServiceCard title="Bathroom" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="bathroom" />
+					<ServiceCard title="Kitchen" copy="Whatever you need when it comes to Kitchen renovation, 123Renovator will help you realise your vision." icon="kitchen" />
+					<ServiceCard title="Bathroom" copy="We offer a range of services so we able to create a Bathroom that works for you." icon="bathroom" />
 					<ServiceCard title="Flooring" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="flooring" />
-					<ServiceCard title="Tiling" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="tiling" />
+					<ServiceCard title="Tiling" copy="We offer fast and affordable Bathroom, Kitchen Tiling and more." icon="tiling" />
 					<ServiceCard title="Plastering" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="plastering" />
 					<ServiceCard title="Painting and Decorating" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="painting" />
 					<ServiceCard title="Maitanance" copy="Lorem Ipsum is simply dummy text of the printing and typesetting industry." icon="maitanance" />
