@@ -12,7 +12,7 @@ const gallery = ({ data }) => {
 				<div className="flex flex-col items-center md:items-start">
 					<h2 className="text-3xl  md:text-4xl font-Baloo mb-3 font-bold">Changing Quality Of Living</h2>
 					<p className="small-text-grey md:text-left max-w-[90%] md:max-w-[70%]">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Selection of our best work and clients we had a pleasure to work for.
 					</p>
 					<div className="orange-line"></div>
 				</div>

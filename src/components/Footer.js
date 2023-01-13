@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className="w-full pt-2 font-Baloo">
 					<h5 className="font-bold text-lg pb-2">About Us</h5>
 					<p className="pb-2 max-w-[95%] xl:max-w-[90%] xxl:max-w-[80%]">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					123 Renovator is a progressive Edinburgh based company specialising in general home improvements for residential and commercial customers.
 					</p>
 					<a className="md:w-8 md:h-auto" href="https://www.facebook.com/123RenovatorEdinburgh" target="_blank" rel="noreferrer">
 						<FbIcon />

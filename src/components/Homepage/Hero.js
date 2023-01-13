@@ -19,8 +19,8 @@ const Hero = () => {
 					Have a Peace of Mind <br></br> Knowing Your Project is <br></br> in Good Hands
 					<span className="text-orange ml-1">.</span>
 				</h1>
-				<p className="text-sm lg:text-base sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Baloo text-dark">
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+				<p className="text-sm lg:text-lg sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Baloo text-dark">
+					We are <strong>123RenovatorEdinburgh</strong>, established and professional Renovation business working mainly around Edinburgh, East Lothian and West Lothian that offers a wide range of services.
 				</p>
 				<div className="flex mr-5">
 					<Button text={'Services'} to="/services" mr />

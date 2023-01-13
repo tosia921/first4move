@@ -8,7 +8,7 @@ const Projects = () => {
 			<div className="w-full mb-4 mt-t flex flex-col justify-center items-center ">
 				<h2 className="text-3xl md:text-4xl font-Baloo mb-3 font-bold">Our Projects</h2>
 				<p className="small-text-grey md:max-w-[70%]">
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					We are proud of our work, and making our customers happy is our number one priority. Have a look at some of our best work and see how big of a difference it makes when you hire a professionals!
 				</p>
 				<div className="orange-line"></div>
 			</div>

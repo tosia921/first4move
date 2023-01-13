@@ -10,14 +10,14 @@ const TextImage = () => {
 			<div className="w-full">
 				<h1 className=" text-3xl md:text-2xl lg:text-4xl xxl:text-4xl font-extrabold mt-5 font-Baloo">Our Story</h1>
 				<div className="orange-line"></div>
-				<p className="text-base sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Inter text-black leading-relaxed">
-					It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-					more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page
-					editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the
-					years, sometimes by accident, sometimes on purpose (injected humour and the like).
+				<p className="text-base sm:max-w-[80%] mb-2 mt-2 lg:mb-4 lg:mt-4 font-Inter text-black leading-relaxed">
+				123 Renovator is a progressive Edinburgh based company specialising in general home improvements for residential and commercial customers.
 				</p>
-				<p className="text-base sm:max-w-[80%] mb-6 mt-4 lg:mb-8 lg:mt-6 font-Inter text-black leading-relaxed">
-					It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+				<p className="text-base sm:max-w-[80%] mb-2 mt-2 lg:mb-4 lg:mt-4 font-Inter text-black leading-relaxed">
+				We have grown our company by 'word of mouth' recommendations by delivering professional and highest standards service.
+				</p>
+				<p className="text-base sm:max-w-[80%] mb-2 mt-2 lg:mb-4 lg:mt-4 font-Inter text-black leading-relaxed">
+					We have over 10 years of experience ranovating and delivering high quality services.
 				</p>
 			</div>
 		</section>

@@ -45,7 +45,7 @@ const ImageBullets = () => {
 							<div className="w-[30px]">
 								<Check className="w-full h-full" />
 							</div>
-							<p className="mt-[2px] md:mt-0 ml-2 w-[calc(100%-30px)]">We use only high quality and tested materials We use only high quality and tested materials</p>
+							<p className="mt-[2px] md:mt-0 ml-2 w-[calc(100%-30px)]">Public Liability Insurance for up to 1 milion pounds</p>
 						</div>
 					</li>
 					<li className="mb-4">
@@ -53,7 +53,7 @@ const ImageBullets = () => {
 							<div className="w-[30px]">
 								<Check className="w-full h-full" />
 							</div>
-							<p className="mt-[2px] md:mt-0 ml-2 w-[calc(100%-30px)]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+							<p className="mt-[2px] md:mt-0 ml-2 w-[calc(100%-30px)]">We use only high quality and tested materials</p>
 						</div>
 					</li>
 				</ul>

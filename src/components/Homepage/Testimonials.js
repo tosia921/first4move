@@ -14,7 +14,7 @@ const Testimonials = () => {
 			<div>
 				<div className="w-full my-12 mb-4 flex flex-col justify-center items-center ">
 					<h2 className="text-3xl text-center md:text-4xl font-Baloo mb-3 font-bold">See what other say about us...</h2>
-					<p className="small-text-grey md:max-w-[70%]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+					<p className="small-text-grey md:max-w-[70%]">Our main advertising is done by "word of mouth" so we make sure to please every single customer.</p>
 					<div className="orange-line"></div>
 				</div>
 			</div>

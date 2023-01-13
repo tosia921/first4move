@@ -16,7 +16,7 @@ const projects = () => {
 				<div className="flex flex-col md:items-start">
 					<h2 className="text-3xl  md:text-4xl font-Baloo mb-3 font-bold">Projects we are the most proud of</h2>
 					<p className="small-text-grey--left text-left md:text-left max-w-[90%] md:max-w-[70%]">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						It takes a lot of work and expertise to transform an old Kitchen or Bathroom into one that's modern and beautifull. Take a look at our past work to see what difference does it make when you hire 123 Renovator!
 					</p>
 					<div className="orange-line"></div>
 				</div>
