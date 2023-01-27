@@ -32,7 +32,7 @@ const contact = () => {
 							</span>
 							<div className="flex justify-center flex-col ml-3">
 								<p>Phone:</p>
-								<p className="text-sm md:text-base font-semibold">0786 653 234</p>
+								<p className="text-sm md:text-base font-semibold">07809 433290</p>
 							</div>
 						</div>
 						<div className="mb-4 flex">
@@ -41,23 +41,14 @@ const contact = () => {
 							</span>
 							<div className="flex flex-col justify-center ml-3">
 								<p className="">Address:</p>
-								<p className="text-sm md:text-base font-semibold leading-tight">
-									6 Example Street<br></br>Edinburgh, EH124W
-								</p>
+								<p className="text-sm md:text-base font-semibold leading-tight">Edinburgh, EH124W</p>
 							</div>
 						</div>
 					</div>
 					<div className="w-full md:w-[70%]">
 						<div class="mapouter">
 							<div class="gmap_canvas">
-								<iframe
-									className="w-full h-[500px]"
-									src="https://maps.google.com/maps?q=Edinburgh&t=&z=11&ie=UTF8&iwloc=&output=embed"
-									frameborder="0"
-									scrolling="no"
-									marginheight="0"
-									marginwidth="0"
-								></iframe>
+								<iframe className="w-full h-[500px]" src="https://maps.google.com/maps?q=Edinburgh&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 								<a href="https://fmovies-online.net"></a>
 							</div>
 						</div>

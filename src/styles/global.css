@@ -160,13 +160,31 @@ body {
 	width: 95%;
 	margin-bottom: 50px;
 	position: relative;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 .image-wrapper__projects--orange:before {
 	content: '';
 	height: 95%;
 	width: 95%;
 	background-color: #ff913a;
+	position: absolute;
+	right: -5%;
+	bottom: -5%;
+}
+.image-wrapper__projects--orange--blue:before {
+	content: '';
+	height: 95%;
+	width: 95%;
+	background-color: #0083a0;
+	position: absolute;
+	right: -5%;
+	bottom: -5%;
+}
+.image-wrapper__projects--blue:before {
+	content: '';
+	height: 95%;
+	width: 95%;
+	background-color: #0083a0;
 	position: absolute;
 	right: -5%;
 	bottom: -5%;
