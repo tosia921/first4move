@@ -30,7 +30,7 @@ const Footer = () => {
 					<h5 className="font-bold text-lg pb-2">Contact Information</h5>
 					<p className="text-footer">Edinburgh, EH17 8EU</p>
 
-					<a href="tel:0738849293" className="text-footer ">
+					<a href="tel:07809433290" className="text-footer ">
 						<p>07809 433290</p>
 					</a>
 					<a href="mailto:123renovatoredinburgh@gmail.com" className="text-footer ">
